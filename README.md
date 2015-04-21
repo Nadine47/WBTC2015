@@ -19,8 +19,8 @@ The pages on the world wide web is for everybody. It is very useful to share the
 Let's say your "Mum" is looking for information about "Children Birthday Games, because she is organizing a Birthday Party for you. She wants to find as much information as possible. How is this going? 
 So the people from all over the world put information on the World Wide Web with different Children Birthday Games and your Mum is finding them with one "Klick". 
 
-Now you have to imaging that computers are not thinking the same way as we do. A computer needs for every step an instruction, that he knows what he has to do. For getting as much information together as possible (that your "Mum" can organising the best Birthday ever) the information about "Children Birthay Games" have to be linked. 
-Linked means connected together. 
+Now you have to imaging that computers are not thinking the same way as we do. Computers are not very smart. A computer needs an instruction for every step. When he doesn't get any instructions he doesn't know that he has to do. For getting as much information together as possible (that your "Mum" can organise the best Birthday Party ever) the information about "Children Birthay Games" have to be linked together.
+Linked means connected together. Linked Data is a method to improve the infromation finding on the World Wide Web. The best informations about "Children Birthday Games" are linked together and for your "Mum" it's going to be easy, organizing your Birthday Party. Because the different infromation are linked together, they have a relationship togehter. 
 
 
 
