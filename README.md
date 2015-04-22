@@ -35,8 +35,8 @@ Let's say your "Mum" is looking for information about "Party Games", because she
 
 Now you have to imaging that computers are not thinking the same way as we do. Computers are not smart the same way as we are. A computer needs an instruction for every step. When he doesn't get any instructions he doesn't know that he has to do. For getting as much information together as possible (that your "Mum" can organize the best Birthday Party for you) the information about "Children Birthay Games" have to be linked together. Linked means connected together. Linked Data is a method to improve the infromation finding on the World Wide Web. The best informations about "Children Birthday Games" are linked together and for your "Mum" it's going to be easy, organizing your Birthday Party. Because the different infromation are linked together, they have a relationship togehter.
 
-### Reference List
-https://www.youtube.com/watch?v=4x_xzT5eF5Q (22.04.2015)
-http://www.w3.org/standards/semanticweb/data (22.04.2015) 
+#### Reference List
+- https://www.youtube.com/watch?v=4x_xzT5eF5Q (22.04.2015)
+- http://www.w3.org/standards/semanticweb/data (22.04.2015) 
 
 
