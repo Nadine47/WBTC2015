@@ -6,18 +6,11 @@ This repository is written in the module Web Technology at Bern University of Ap
 The task for exercise one was to design IRI patterns for a dataspace on the web (own profile). As well as describing why the IRI patterns were chosen like this. 
 The second part of the task was explaning in a short summary what "Linked Data" is, that a five year old would understand. 
 
-1. IRI patterns 
-
-<rdf:Desription 
-rdf:about="http://www.nadineneuen.ch/home">
-  <foaf:name>Nadine Neuenschwander</foaf:name>
-  <foaf:gender>Female</foaf:gender>
-  <foaf:family_name>Neuenschwander</foaf:family_name>
-  <foaf:given_name>Nadine</foaf:given_name>
-</red:Description> 
-<rdf:Desription 
-rdf:about="http://www.nadineneuen.ch/about">
-</red:Description> 
+1. Defining IRI patterns 
+http://www.nadineneuen.ch/home
+http://www.nadineneuen.ch/aboutme
+http://www.nadineneuen.ch/
+mailto:nadine.neuenschwander@belponline.ch
 
 
 2. Linked Data for a five year old 
