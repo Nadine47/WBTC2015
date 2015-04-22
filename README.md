@@ -10,14 +10,20 @@ I have chosen the following URI because it is a combination of my given name and
 - http://www.nadineneuen.ch/home
 - http://www.nadineneuen.ch/aboutme
 - http://www.nadineneuen.ch/education
+- http://www.nadineneuen.ch/education/bfh
+- http://www.nadineneuen.ch/education/wmb
 - http://www.nadineneuen.ch/experiences
+- http://www.nadineneuen.ch/experiences/sbb
+- http://www.nadineneuen.ch/experiences/migros
 - http://www.nadineneuen.ch/interested_in
 - http://www.nadineneuen.ch/interested_in/hobbies
+- http://www.nadineneuen.ch/interested_in/it
 - http://www.nadineneuen.ch/travel
 - http://www.nadineneuen.ch/contactinfo
 - http://www.nadineneuen.ch/links
 
-I have definied the URIs above because I think it is covering already a lot of possible infromation. The /home page is the first page of the website. In the /aboutme section there is space for the relevant information about me and my life. The part /education and /experiences will cover my school and working background and my achievements. The part /interested_in gives space for my hobbies and things which interest me (like books, newspaper articles). The /travel section is provided for travel informations (like a blog, to share the most beautiful experiences). On the /links page there is space for further information which I like to link.
+I have definied the URIs above because I think it is covering already a lot of possible infromation. The /home page is the first page of the website. In the /aboutme section there is space for the relevant information about me and my life. The part /education and /experiences will cover my school and working background and my achievements, the different schools as well as companies I've worked for are covered with subcategories. The part /interested_in gives space for my hobbies and things which interest me (like books, newspaper articles)--> subcategories as well. The /travel section is provided for travel informations (like a blog, to share the most beautiful experiences). On the /links page there is space for further information which I like to link.
+
 
 ### Linked Data for a five year old
 
