@@ -1,7 +1,40 @@
 # WBTC2015
 This repository is written in the module Web Technology at Bern University of Applied Science, Bachelor in Business Information Systems 
 
-he task for exercise one was to design IRI patterns for a dataspace on the web (own profile). As well as describing why the IRI patterns were chosen like this. The second part of the task was explaning in a short summary what "Linked Data" is, that a five year old would understand.
+## Exercise 2
+The task for exercise two was to design RDF serializations in Turtle. 
+Create a list for following statements: 
+- list of accounts on the web 
+- list of relationships 
+- list of interests 
+- list of accomplishments (work experience / education)
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix foaf: <http://example.org/foaf/0.1/>
+
+### Web accounts
+<http://nadineneuen.ch/aboutme> <http://xmlns.com/foaf/0.1/accounts> <https://www.facebook.com/nadine.neuenschwander.3>
+<http://nadineneuen.ch/aboutme> <http://xmlns.com/foaf/0.1/accounts> <https://www.flickr.com/photos/nadineneuen/>
+
+
+### relationships
+<http://nadineneuen.ch/links> <http://xmlns.com/foaf/0.1/knows> <http://www.facebook.com/romy.gurtner?fref=ts/#i>
+
+### interests
+<http://nadineneuen.ch/intrested_in/hobbies> <http://xmlns.com/foaf/0.1/interests> <http://en.wikipedia.org/wiki/Skiing>
+
+### accomplishments 
+<http://nadineneuen.ch/experiences/sbb> <http://xmlns.com/foaf/0.1/experiences> <https://www.sbb.ch/en/group/sbb-as-business-partner/offers-for-rus/telecom.html>
+
+<http://nadineneuen.ch/experiences/migros> <http://xmlns.com/foaf/0.1/experiences> <http://www.migros.ch/de.html>
+
+### education 
+<http://www.nadineneuen.ch/education/bfh> <http://xmlns.com/foaf/0.1/education> <https://www.bfh.ch/en/startseite.html>
+<http://www.nadineneuen.ch/education/wmb> <http://xmlns.com/foaf/0.1/education> <http://www.bwdbern.ch/bwd-wmb/>
+
+## Exercise 1 
+
+The task for exercise one was to design IRI patterns for a dataspace on the web (own profile). As well as describing why the IRI patterns were chosen like this. The second part of the task was explaning in a short summary what "Linked Data" is, that a five year old would understand.
 
 ### Design my own IRI patterns
 
