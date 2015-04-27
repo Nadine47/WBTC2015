@@ -33,7 +33,76 @@
 
 <p>This repository is written in the module Web Technology at Bern University of Applied Science, Bachelor in Business Information Systems </p>
 
-<p>he task for exercise one was to design IRI patterns for a dataspace on the web (own profile). As well as describing why the IRI patterns were chosen like this. The second part of the task was explaning in a short summary what "Linked Data" is, that a five year old would understand.</p>
+<h2>
+<a id="exercise-2" class="anchor" href="#exercise-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exercise 2</h2>
+
+<p>The task for exercise two was to design RDF serializations in Turtle. 
+Create a list for following statements: </p>
+
+<ul>
+<li>list of accounts on the web </li>
+<li>list of relationships </li>
+<li>list of interests </li>
+<li>list of accomplishments (work experience / education)</li>
+</ul>
+
+<p>The post is based on exercise one. </p>
+
+<ul>
+<li>
+<a href="https://github.com/base" class="user-mention">@base</a> <a href="http://www.nadineneuen.ch/">http://www.nadineneuen.ch/</a>
+</li>
+<li>
+<a href="https://github.com/prefix" class="user-mention">@prefix</a> rdf: <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a>
+</li>
+<li>
+<a href="https://github.com/prefix" class="user-mention">@prefix</a> foaf: <a href="http://example.org/foaf/0.1/">http://example.org/foaf/0.1/</a>
+</li>
+<li>
+<a href="https://github.com/prefix" class="user-mention">@prefix</a> hobbies: <a href="https://www.wikipedia.org/">https://www.wikipedia.org/</a>
+</li>
+</ul>
+
+<h5>
+<a id="web-accounts" class="anchor" href="#web-accounts" aria-hidden="true"><span class="octicon octicon-link"></span></a>web accounts</h5>
+
+<p><a href="http://nadineneuen.ch/aboutme">http://nadineneuen.ch/aboutme</a> <a href="http://xmlns.com/foaf/0.1/accounts">http://xmlns.com/foaf/0.1/accounts</a> <a href="https://www.facebook.com/nadine.neuenschwander.3">https://www.facebook.com/nadine.neuenschwander.3</a>
+<a href="http://nadineneuen.ch/aboutme">http://nadineneuen.ch/aboutme</a> <a href="http://xmlns.com/foaf/0.1/accounts">http://xmlns.com/foaf/0.1/accounts</a> <a href="https://www.flickr.com/photos/nadineneuen/">https://www.flickr.com/photos/nadineneuen/</a></p>
+
+<h5>
+<a id="relationships" class="anchor" href="#relationships" aria-hidden="true"><span class="octicon octicon-link"></span></a>relationships</h5>
+
+<p><a href="http://nadineneuen.ch/links">http://nadineneuen.ch/links</a> <a href="http://xmlns.com/foaf/0.1/knows">http://xmlns.com/foaf/0.1/knows</a> <a href="https://www.facebook.com/dena.sargent.79?fref=ts">https://www.facebook.com/dena.sargent.79?fref=ts</a>
+<a href="http://nadineneuen.ch/links">http://nadineneuen.ch/links</a> <a href="http://xmlns.com/foaf/0.1/knows">http://xmlns.com/foaf/0.1/knows</a> <a href="https://www.facebook.com/genevieve.scharer?fref=ts">https://www.facebook.com/genevieve.scharer?fref=ts</a></p>
+
+<h5>
+<a id="interests" class="anchor" href="#interests" aria-hidden="true"><span class="octicon octicon-link"></span></a>interests</h5>
+
+<p><a href="http://nadineneuen.ch/intrested_in/hobbies">http://nadineneuen.ch/intrested_in/hobbies</a> <a href="http://xmlns.com/foaf/0.1/interests">http://xmlns.com/foaf/0.1/interests</a> <a href="http://en.wikipedia.org/wiki/Skiing">http://en.wikipedia.org/wiki/Skiing</a>
+<a href="http://nadineneuen.ch/intrested_in/hobbies">http://nadineneuen.ch/intrested_in/hobbies</a> <a href="http://xmlns.com/foaf/0.1/interests">http://xmlns.com/foaf/0.1/interests</a> <a href="http://en.wikipedia.org/wiki/Squash_%28sport%29">http://en.wikipedia.org/wiki/Squash_%28sport%29</a></p>
+
+<h5>
+<a id="accomplishments" class="anchor" href="#accomplishments" aria-hidden="true"><span class="octicon octicon-link"></span></a>accomplishments</h5>
+
+<p><a href="http://nadineneuen.ch/experiences/sbb">http://nadineneuen.ch/experiences/sbb</a> <a href="http://xmlns.com/foaf/0.1/experiences">http://xmlns.com/foaf/0.1/experiences</a> <a href="https://www.sbb.ch/en/group/sbb-as-business-partner/offers-for-rus/telecom.html">https://www.sbb.ch/en/group/sbb-as-business-partner/offers-for-rus/telecom.html</a></p>
+
+<p><a href="http://nadineneuen.ch/experiences/migros">http://nadineneuen.ch/experiences/migros</a> <a href="http://xmlns.com/foaf/0.1/experiences">http://xmlns.com/foaf/0.1/experiences</a> <a href="http://www.migros.ch/de.html">http://www.migros.ch/de.html</a></p>
+
+<h5>
+<a id="education" class="anchor" href="#education" aria-hidden="true"><span class="octicon octicon-link"></span></a>education</h5>
+
+<p><a href="http://www.nadineneuen.ch/education/bfh">http://www.nadineneuen.ch/education/bfh</a> <a href="http://xmlns.com/foaf/0.1/education">http://xmlns.com/foaf/0.1/education</a> <a href="https://www.bfh.ch/en/startseite.html">https://www.bfh.ch/en/startseite.html</a>
+<a href="http://www.nadineneuen.ch/education/wmb">http://www.nadineneuen.ch/education/wmb</a> <a href="http://xmlns.com/foaf/0.1/education">http://xmlns.com/foaf/0.1/education</a> <a href="http://www.bwdbern.ch/bwd-wmb/">http://www.bwdbern.ch/bwd-wmb/</a></p>
+
+<h5>
+<a id="travel" class="anchor" href="#travel" aria-hidden="true"><span class="octicon octicon-link"></span></a>travel</h5>
+
+<p><a href="http://www.nadineneuen.ch/travel">http://www.nadineneuen.ch/travel</a> <a href="http://xmlns.com/foaf/0.1/travel">http://xmlns.com/foaf/0.1/travel</a> <a href="https://www.gadventures.com/trips/bangkok-to-singapore-on-a-shoestring/ATRM/2015/">https://www.gadventures.com/trips/bangkok-to-singapore-on-a-shoestring/ATRM/2015/</a></p>
+
+<h2>
+<a id="exercise-1" class="anchor" href="#exercise-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exercise 1</h2>
+
+<p>The task for exercise one was to design IRI patterns for a dataspace on the web (own profile). As well as describing why the IRI patterns were chosen like this. The second part of the task was explaning in a short summary what "Linked Data" is, that a five year old would understand.</p>
 
 <h3>
 <a id="design-my-own-iri-patterns" class="anchor" href="#design-my-own-iri-patterns" aria-hidden="true"><span class="octicon octicon-link"></span></a>Design my own IRI patterns</h3>
