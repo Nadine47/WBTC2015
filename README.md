@@ -38,6 +38,9 @@ The post is based on exercise one.
 <http://www.nadineneuen.ch/education/bfh> <http://xmlns.com/foaf/0.1/education> <https://www.bfh.ch/en/startseite.html>
 <http://www.nadineneuen.ch/education/wmb> <http://xmlns.com/foaf/0.1/education> <http://www.bwdbern.ch/bwd-wmb/>
 
+##### travel 
+<http://www.nadineneuen.ch/travel> <http://xmlns.com/foaf/0.1/travel> <https://www.gadventures.com/trips/bangkok-to-singapore-on-a-shoestring/ATRM/2015/>
+
 ## Exercise 1 
 
 The task for exercise one was to design IRI patterns for a dataspace on the web (own profile). As well as describing why the IRI patterns were chosen like this. The second part of the task was explaning in a short summary what "Linked Data" is, that a five year old would understand.
