@@ -8,31 +8,33 @@ Create a list for following statements:
 - list of relationships 
 - list of interests 
 - list of accomplishments (work experience / education)
+ 
+The post is based on exercise one. 
 
-
+- @base <http://www.nadineneuen.ch/>
 - @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 - @prefix foaf: <http://example.org/foaf/0.1/>
 - @prefix hobbies: <https://www.wikipedia.org/>
 
-#### Web accounts
+##### web accounts
 <http://nadineneuen.ch/aboutme> <http://xmlns.com/foaf/0.1/accounts> <https://www.facebook.com/nadine.neuenschwander.3>
 <http://nadineneuen.ch/aboutme> <http://xmlns.com/foaf/0.1/accounts> <https://www.flickr.com/photos/nadineneuen/>
 
 
-#### relationships
+##### relationships
 <http://nadineneuen.ch/links> <http://xmlns.com/foaf/0.1/knows> <https://www.facebook.com/dena.sargent.79?fref=ts>
 <http://nadineneuen.ch/links> <http://xmlns.com/foaf/0.1/knows> <https://www.facebook.com/genevieve.scharer?fref=ts>
 
-#### interests
+##### interests
 <http://nadineneuen.ch/intrested_in/hobbies> <http://xmlns.com/foaf/0.1/interests> <http://en.wikipedia.org/wiki/Skiing>
 <http://nadineneuen.ch/intrested_in/hobbies> <http://xmlns.com/foaf/0.1/interests> <http://en.wikipedia.org/wiki/Squash_%28sport%29>
 
-#### accomplishments 
+##### accomplishments 
 <http://nadineneuen.ch/experiences/sbb> <http://xmlns.com/foaf/0.1/experiences> <https://www.sbb.ch/en/group/sbb-as-business-partner/offers-for-rus/telecom.html>
 
 <http://nadineneuen.ch/experiences/migros> <http://xmlns.com/foaf/0.1/experiences> <http://www.migros.ch/de.html>
 
-#### education 
+##### education 
 <http://www.nadineneuen.ch/education/bfh> <http://xmlns.com/foaf/0.1/education> <https://www.bfh.ch/en/startseite.html>
 <http://www.nadineneuen.ch/education/wmb> <http://xmlns.com/foaf/0.1/education> <http://www.bwdbern.ch/bwd-wmb/>
 
