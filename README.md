@@ -21,22 +21,20 @@ foaf: <http://xmlns.com/foaf/0.1/>
 - @prefix dbpedia : <htttp://dbpedia.org/page/>
 
 <http://nadineneuen.ch/aboutme>
-    rdf:type foaf:Person;
-    foaf:title "Mrs";
-    foaf:firstName "Nadine";
-    foaf:lastName "Neuenschwander";
-    foaf:gender "female";
-    foaf:knows <http://www.ledergerber91.ch/> a foaf:person; 
-    foaf:mbox <mailto:nadinediane.neuenschwander@students.bfh.ch>;
-    foaf:account <https://github.com/Nadine47/WBTC2015/>;
-    foaf:birthday "07-04";
-    foaf:based_near geo:lat="46.951081" geo:long="7.438637>;
-    foaf:schoolHomepage <http://www.bfh.ch/>
+   - rdf:type foaf:Person;
+    - foaf:title "Mrs";
+    - foaf:firstName "Nadine";
+    - foaf:lastName "Neuenschwander";
+    - foaf:gender "female";
+    - foaf:knows <http://www.ledergerber91.ch/> a foaf:person; 
+    - foaf:mbox <mailto:nadinediane.neuenschwander@students.bfh.ch>;
+    - foaf:account <https://github.com/Nadine47/WBTC2015/>;
+    - foaf:birthday "07-04";
+    - foaf:based_near geo:lat="46.951081" geo:long="7.438637>;
+    - foaf:schoolHomepage <http://www.bfh.ch/>
     
-    foaf:interest dbpedia:
-    
-    foaf:currentProject moodle:id=7446; 
-    foaf:currentProject wbtc_bfh:2015/linked-data;
+    - foaf:currentProject moodle:id=7446; 
+    - foaf:currentProject wbtc_bfh:2015/linked-data;
 
 ## Exercise 2
 The task for exercise two was to design RDF serializations in Turtle. 
