@@ -1,6 +1,43 @@
 # WBTC2015
 This repository is written in the module Web Technology at Bern University of Applied Science, Bachelor in Business Information Systems 
 
+## Exercise 3
+The task for exercise three was to design more RDF Turtles with FOAF to describe ourselves.
+
+#### Exercise 3.2 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax.ns#>
+PREFIX rdfs: <htttp://www.w3.org/2000/01/rdf-schema#>
+foaf: <http://xmlns.com/foaf/0.1/>
+
+... will be continued :-) ... 
+
+
+#### Exercise 3.1 
+
+- @base <http ://www.nadineneuen.ch/>
+- @prefix rdf : <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+- @prefix foaf : <http://example.org/foaf/0.1/>
+- @prefix wikipedia : <http://www.wikipedia.org/>
+- @prefix dbpedia : <htttp://dbpedia.org/page/>
+
+<http://nadineneuen.ch/aboutme>
+    rdf:type foaf:Person;
+    foaf:title "Mrs";
+    foaf:firstName "Nadine";
+    foaf:lastName "Neuenschwander";
+    foaf:gender "female";
+    foaf:knows <http://www.ledergerber91.ch/> a foaf:person; 
+    foaf:mbox <mailto:nadinediane.neuenschwander@students.bfh.ch>;
+    foaf:account <https://github.com/Nadine47/WBTC2015/>;
+    foaf:birthday "07-04";
+    foaf:based_near geo:lat="46.951081" geo:long="7.438637>;
+    foaf:schoolHomepage <http://www.bfh.ch/>
+    
+    foaf:interest dbpedia:
+    
+    foaf:currentProject moodle:id=7446; 
+    foaf:currentProject wbtc_bfh:2015/linked-data;
+
 ## Exercise 2
 The task for exercise two was to design RDF serializations in Turtle. 
 Create a list for following statements: 
