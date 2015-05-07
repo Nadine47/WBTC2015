@@ -13,7 +13,7 @@ foaf: <http://xmlns.com/foaf/0.1/>
 
 
 #### Exercise 3.1 
-- @base <http ://www.nadineneuen.ch/>
+@base <http://www.nadineneuen.ch/>
 - @prefix rdf : <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 - @prefix foaf : <http://example.org/foaf/0.1/>
 - @prefix wikipedia : <http://www.wikipedia.org/>
