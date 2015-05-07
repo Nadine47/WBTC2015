@@ -13,7 +13,6 @@ foaf: <http://xmlns.com/foaf/0.1/>
 
 
 #### Exercise 3.1 
-
 - @base <http ://www.nadineneuen.ch/>
 - @prefix rdf : <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 - @prefix foaf : <http://example.org/foaf/0.1/>
@@ -49,9 +48,11 @@ The post is based on exercise one.
 - @base <http://www.nadineneuen.ch/>
 - @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 - @prefix foaf: <http://example.org/foaf/0.1/>
-- @prefix hobbies: <https://www.wikipedia.org/>
+- @prefix wikipedia: <https://www.wikipedia.org/>
 
 ##### web accounts
+<http://nadineneuen.ch/aboutme>
+  rdf:type foaf:Person;
 <http://nadineneuen.ch/aboutme> <http://xmlns.com/foaf/0.1/accounts> <https://www.facebook.com/nadine.neuenschwander.3>
 <http://nadineneuen.ch/aboutme> <http://xmlns.com/foaf/0.1/accounts> <https://www.flickr.com/photos/nadineneuen/>
 
@@ -61,20 +62,18 @@ The post is based on exercise one.
 <http://nadineneuen.ch/links> <http://xmlns.com/foaf/0.1/knows> <https://www.facebook.com/genevieve.scharer?fref=ts>
 
 ##### interests
-<http://nadineneuen.ch/intrested_in/hobbies> <http://xmlns.com/foaf/0.1/interests> <http://en.wikipedia.org/wiki/Skiing>
-<http://nadineneuen.ch/intrested_in/hobbies> <http://xmlns.com/foaf/0.1/interests> <http://en.wikipedia.org/wiki/Squash_%28sport%29>
+<http://nadineneuen.ch/intrested_in/> <http://xmlns.com/foaf/0.1/interest> <http://en.wikipedia.org/wiki/Skiing>
+<http://nadineneuen.ch/intrested_in/> <http://xmlns.com/foaf/0.1/interest> <http://en.wikipedia.org/wiki/Squash_%28sport%29>
 
 ##### accomplishments 
-<http://nadineneuen.ch/experiences/sbb> <http://xmlns.com/foaf/0.1/experiences> <https://www.sbb.ch/en/group/sbb-as-business-partner/offers-for-rus/telecom.html>
+<http://nadineneuen.ch/experiences/sbb> <http://xmlns.com/foaf/0.1/workplaceHomepage> <https://www.sbb.ch/en/group/sbb-as-business-partner/offers-for-rus/telecom.html>
 
-<http://nadineneuen.ch/experiences/migros> <http://xmlns.com/foaf/0.1/experiences> <http://www.migros.ch/de.html>
+<http://nadineneuen.ch/experiences/migros> <http://xmlns.com/foaf/0.1/workplaceHomepag> <http://www.migros.ch/de.html>
 
 ##### education 
-<http://www.nadineneuen.ch/education/bfh> <http://xmlns.com/foaf/0.1/education> <https://www.bfh.ch/en/startseite.html>
-<http://www.nadineneuen.ch/education/wmb> <http://xmlns.com/foaf/0.1/education> <http://www.bwdbern.ch/bwd-wmb/>
+<http://www.nadineneuen.ch/education/bfh> <http://xmlns.com/foaf/0.1/schoolHomepage> <https://www.bfh.ch/en/startseite.html>
+<http://www.nadineneuen.ch/education/wmb> <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.bwdbern.ch/bwd-wmb/>
 
-##### travel 
-<http://www.nadineneuen.ch/travel> <http://xmlns.com/foaf/0.1/travel> <https://www.gadventures.com/trips/bangkok-to-singapore-on-a-shoestring/ATRM/2015/>
 
 ## Exercise 1 
 
