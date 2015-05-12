@@ -1,15 +1,31 @@
 # WBTC2015
 This repository is written in the module Web Technology at Bern University of Applied Science, Bachelor in Business Information Systems 
 
+## Exercise 4
+#### Switzerland's total population value
+PREFIX dbr: <http://dbpedia.org/resource/>
+SELECT ?PopulationTotalValue
+WHERE {
+    dbr:Switzerland dbpedia-owl:populationTotal ?PopulationTotalValue.
+
+#### Canadas National Anthem 
+
+PREFIX dbr: <http://dbpedia.org/resource/>
+SELECT ?nationalAnthemValue
+WHERE {
+    dbr:Canada dbpprop:nationalAnthem ?nationalAnthemValue.
+}    
+
 ## Exercise 3
 The task for exercise three was to design more RDF Turtles with FOAF to describe ourselves.
 
 #### Exercise 3.2 
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax.ns#>
-PREFIX rdfs: <htttp://www.w3.org/2000/01/rdf-schema#>
-foaf: <http://xmlns.com/foaf/0.1/>
 
-... will be continued :-) ... 
+PREFIX dbr: <http://dbpedia.org/resource/>
+SELECT ?PopulationCensusValue
+WHERE {
+    dbr:Switzerland dbpprop:populationCensus ?PopulationCensusValue.
+}
 
 
 #### Exercise 3.1 
