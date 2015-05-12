@@ -34,6 +34,26 @@
 <p>This repository is written in the module Web Technology at Bern University of Applied Science, Bachelor in Business Information Systems </p>
 
 <h2>
+<a id="exercise-4" class="anchor" href="#exercise-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exercise 4</h2>
+
+<h4>
+<a id="switzerlands-total-population-value" class="anchor" href="#switzerlands-total-population-value" aria-hidden="true"><span class="octicon octicon-link"></span></a>Switzerland's total population value</h4>
+
+<p>PREFIX dbr: <a href="http://dbpedia.org/resource/">http://dbpedia.org/resource/</a>
+SELECT ?PopulationTotalValue
+WHERE {
+    dbr:Switzerland dbpedia-owl:populationTotal ?PopulationTotalValue.</p>
+
+<h4>
+<a id="canadas-national-anthem" class="anchor" href="#canadas-national-anthem" aria-hidden="true"><span class="octicon octicon-link"></span></a>Canadas National Anthem</h4>
+
+<p>PREFIX dbr: <a href="http://dbpedia.org/resource/">http://dbpedia.org/resource/</a>
+SELECT ?nationalAnthemValue
+WHERE {
+    dbr:Canada dbpprop:nationalAnthem ?nationalAnthemValue.
+}    </p>
+
+<h2>
 <a id="exercise-3" class="anchor" href="#exercise-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exercise 3</h2>
 
 <p>The task for exercise three was to design more RDF Turtles with FOAF to describe ourselves.</p>
@@ -41,11 +61,11 @@
 <h4>
 <a id="exercise-32" class="anchor" href="#exercise-32" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exercise 3.2</h4>
 
-<p>PREFIX rdf: <a href="http://www.w3.org/1999/02/22-rdf-syntax.ns#">http://www.w3.org/1999/02/22-rdf-syntax.ns#</a>
-PREFIX rdfs: htttp://www.w3.org/2000/01/rdf-schema#
-foaf: <a href="http://xmlns.com/foaf/0.1/">http://xmlns.com/foaf/0.1/</a></p>
-
-<p>... will be continued :-) ... </p>
+<p>PREFIX dbr: <a href="http://dbpedia.org/resource/">http://dbpedia.org/resource/</a>
+SELECT ?PopulationCensusValue
+WHERE {
+    dbr:Switzerland dbpprop:populationCensus ?PopulationCensusValue.
+}</p>
 
 <h4>
 <a id="exercise-31" class="anchor" href="#exercise-31" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exercise 3.1</h4>
